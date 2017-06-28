@@ -1,1 +1,35 @@
+#Survey{
+	margin:0 auto;
+	width:80%;
+	padding:10px;
+	border:0px solid #000000;
+	background-color:#cccccc;
+}
 
+#pagingControlsContainer{
+	margin:0 auto;
+	width:80%;
+	padding:10px;
+	border:0px solid #000000;
+	background-color:#cccccc;
+}
+
+#btnContainer{
+	position:relative;
+	height:100%
+	float:right;
+	text-align:right;
+}
+
+.qTitle{
+	font-size:24px;
+	font-family:arial,helvetica;
+	font-style:bold;
+	text-align:center;
+}
+
+.lblText{
+	font-size:14px;
+	font-family:arial,helvetica;
+	font-style:bold;
+}
