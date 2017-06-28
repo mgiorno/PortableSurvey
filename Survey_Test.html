@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Survey_Test</title>
+<script src="js/Survey.js"></script>
+<link rel="stylesheet" type="text/css" href="css/styles.css" />
+</head>
+<body>
+<div id="Survey">
+</div>
+<div id="pagingControlsContainer">
+	<div id="btnContainer">
+		<button id="btnBack">Back</button>&nbsp;<button id="btnNext">Next</button>
+	</div>
+</div>
+</body>
+<script>
+let s1 = new Survey("My First Survey", "Mario Giorno");
+console.log(s1.name);
+console.log(s1.owner);
+s1.buildHTML("Survey");
+let q1 = new Question("age", "fill-in", "How old are you?");
+console.log(q1.name);
+console.log(q1.type);
+console.log(q1.text);
+q1.buildHTML("Survey");
+</script>
+</html>
